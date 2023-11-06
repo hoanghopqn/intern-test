@@ -1,0 +1,24 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    .header-product {
+        display: flex;
+        margin-top: 5px;
+        .product {
+            display: flex;
+            flex-direction: column;
+            margin: 15px;
+        }
+        .image-product {
+            display: flex;
+            height: 80px;
+            width: 80px;
+            border-radius: 50%;
+        }
+    }
+    .img-header {
+        height: 50px !important;
+        width: 50px !important;
+        margin-top: 10px;
+    }
+}

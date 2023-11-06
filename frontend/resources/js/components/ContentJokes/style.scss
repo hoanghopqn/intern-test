@@ -1,0 +1,47 @@
+.content-jokes {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px outset #ffffff;
+    align-items: center;
+    .content {
+        display: flex;
+        margin-top: 30px;
+        margin-left: 210px;
+        margin-right: 210px;
+        flex-direction: column;
+        align-items: stretch;
+        font-size: 30px;
+    }
+    .content-button {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        button {
+            margin: 30px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            width: 300px;
+            height: 60px;
+            border: 1px outset aliceblue;
+            font-size: 20px;
+        }
+        .greenB {
+            background-color: rgb(2, 145, 21);
+            color: aliceblue;
+        }
+        .greenB:hover {
+            background-color: rgb(255, 255, 255);
+            color: rgb(2, 145, 21);
+            border: 2px solid rgb(2, 145, 21);
+        }
+        .blueB {
+            background-color: rgb(32, 91, 255);
+            color: aliceblue;
+        }
+        .blueB:hover {
+            background-color: rgb(255, 255, 255);
+            color: rgb(32, 91, 255);
+            border: 2px solid rgb(32, 91, 255);
+        }
+    }
+}
